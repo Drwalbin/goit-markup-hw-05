@@ -49,6 +49,10 @@ a {
   padding: 94px 0px 94px 0px;
 }
 
+*:hover {
+  transition-duration: 250ms;
+  
+}
 /* ------------------------------IKONY-GRAFIKA-linki---------------------------------- */
 .contact-icon {
   margin-right: 10px;
@@ -100,6 +104,7 @@ a {
 .footer-social-list-link:hover {
   background-color: var(--brand-color);
   fill: var(--third-color);
+   transition-duration: 250ms;
 }
 
 /* ----------------------------MENU STRONY--------------------------------------*/
@@ -188,6 +193,7 @@ a {
 .menu-section-links-a:hover,
 .menu-social-links-a:hover {
   color: var(--brand-color);
+   transition-duration: 250ms;
 }
 
 /* ---------------------MAIN NAGŁOWEK STRONY ------------------------*/
@@ -228,6 +234,8 @@ a {
 .button:hover {
   color: var(--third-color);
   background-color: var(--brand-color);
+   transition-duration: 250ms;
+
 }
 
 .main-button {
@@ -588,7 +596,7 @@ a {
   position: relative;
   top: 10%;
  margin: auto;
-transform: translate;
+
   width: 528px;
   min-height: 581px;
   background-color: var(--main-background-color);
@@ -600,6 +608,7 @@ top: 10%;
   animation-duration: 750ms;
  
   animation-iteration-count: 1;
+   transition-duration: 250ms;
 }
 @keyframes spin {
   0% {
