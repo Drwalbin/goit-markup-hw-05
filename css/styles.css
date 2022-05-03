@@ -591,6 +591,7 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition-duration: 250ms;
 }
 .modal {
   position: relative;
@@ -601,27 +602,7 @@ a {
   min-height: 581px;
   background-color: var(--main-background-color);
 }
-.modal:active,
-.modal:hover {
-top: 10%;
-  animation-name: spin;
-  animation-duration: 750ms;
- 
-  animation-iteration-count: 1;
-   transition-duration: 250ms;
-}
-@keyframes spin {
-  0% {
-    background-color: var(--main-background-color);
-    transform: rotate(0deg);}
 
-  50% {background-color: var(--brand-color);
-  transform: rotate(180deg);}
-
-  100% {
-    background-color: var(--main-background-color);
-    transform: rotate(360deg);
-}}
 
 
 
